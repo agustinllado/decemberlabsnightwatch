@@ -1,0 +1,26 @@
+{
+  "name": "decemberlabsnightwatch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "debug": "node --inspect-brk node_modules/.bin/nightwatch",
+    "test": "nightwatch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agustinllado/decemberlabsnightwatch.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agustinllado/decemberlabsnightwatch/issues"
+  },
+  "homepage": "https://github.com/agustinllado/decemberlabsnightwatch#readme",
+  "devDependencies": {
+    "chromedriver": "^98.0.1",
+    "nightwatch": "^2.0.7"
+  }
+}
